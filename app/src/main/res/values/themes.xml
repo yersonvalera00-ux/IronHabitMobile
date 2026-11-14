@@ -1,9 +1,9 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.IronHabitMobile" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.IronHabitMobile" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ih_accent</item>
+        <item name="colorOnPrimary">@color/ih_white</item>
+        <item name="colorSecondary">@color/ih_primary</item>
+        <item name="android:windowBackground">@color/ih_background</item>
     </style>
-
-    <style name="Theme.IronHabitMobile" parent="Base.Theme.IronHabitMobile" />
 </resources>
